@@ -19,5 +19,7 @@ const guestList = [
   "Daniel",
 ];
 
+const availableSeat = (guestList, number) => guestList.slice(0, number) ;
+
 console.log(availableSeat(guestList, 2)); // [ 'John', 'Sarah' ]
 console.log(availableSeat(guestList, 4)); // [ 'John', 'Sarah', 'Michael', 'Emma' ]
